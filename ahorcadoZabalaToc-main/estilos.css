@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background-color: red;
+    font-family:'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+
+#mi-canvas{
+    border: 1px solid black;
+    width: 50vw;
+    height: 50vh;
+}
