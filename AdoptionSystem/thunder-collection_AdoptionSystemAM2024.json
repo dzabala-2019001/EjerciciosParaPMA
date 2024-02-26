@@ -1,0 +1,57 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "AdoptionSystemAM2024",
+    "dateExported": "2024-02-22T14:59:57.534Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "6dadb5fb-972b-489e-b7d1-966c6431b666",
+            "name": "ADMIN",
+            "containerId": "",
+            "created": "2024-02-22T14:52:24.244Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "74dd4850-4453-4c8b-8c46-a6e419250dda",
+            "name": "CLIENT",
+            "containerId": "",
+            "created": "2024-02-22T14:52:35.290Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "d09d6f0b-0178-497b-942c-93628cd0766b",
+            "colId": "c8daed10-a2a2-482d-9d92-89ee336d959d",
+            "containerId": "6dadb5fb-972b-489e-b7d1-966c6431b666",
+            "name": "TestAppointmen",
+            "url": "/appointment/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-22T14:52:55.238Z",
+            "modified": "2024-02-22T14:56:04.600Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "42635361-377c-48a0-a04b-d4e94c0a5401",
+            "colId": "c8daed10-a2a2-482d-9d92-89ee336d959d",
+            "containerId": "6dadb5fb-972b-489e-b7d1-966c6431b666",
+            "name": "SeveAppointmen",
+            "url": "localhost:2656/appointment/save",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-22T14:53:41.733Z",
+            "modified": "2024-02-22T14:54:04.141Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:2656"
+        }
+    }
+}
